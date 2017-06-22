@@ -3,6 +3,9 @@ import * as os from "os";
 export module Messages {
   export module TestCloud {
     export module Commands {
+      export const DevicesCreateSet = "Create a short id or set name for the selected devices list.";
+      export const DevicesList = "List of available user sets of devices.";
+      export const DevicesShow = "List of all available devices for the selected application.";
       export const GenerateAppium = "Generates an Appium project";
       export const GenerateUITest = "Generates a Xamarin.UITest project";
 
@@ -39,6 +42,9 @@ export module Messages {
       export const TestParameter = 'Additional test parameters. The value must be in format "key=value"';
       export const AppPath = "Path to an application file";
       export const AppPlatform = "The app's platform ('ios' or 'android')";
+
+      export const DevicesListId = "Id of user set of devices.";
+      export const DevicesShowFilter = "Filter devices by name.";
 
       export const GenerateOutputPath = "The path where the tests will be generated";
 

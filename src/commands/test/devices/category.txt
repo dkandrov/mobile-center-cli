@@ -1,0 +1,1 @@
+Commands that help to select devices on which tests are launched.
